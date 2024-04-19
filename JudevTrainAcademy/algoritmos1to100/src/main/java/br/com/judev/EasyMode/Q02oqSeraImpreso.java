@@ -82,7 +82,7 @@ public class Q02oqSeraImpreso {
         y = x + z;      // y recebe a soma de x e z, ou seja, 5 + (-5) = 0
         System.out.println("X " + x + " , Y " + y + " , Z " + z);  // imprime: X 5 , Y 0 , Z -5
         
-        
+
 
 
         System.out.println("-------------------------------------------------");
@@ -90,3 +90,6 @@ public class Q02oqSeraImpreso {
       
     }
 }
+
+/* 2) Analise os algoritmos abaixo e diga o que será impresso na tela ao serem executados: 
+*/
