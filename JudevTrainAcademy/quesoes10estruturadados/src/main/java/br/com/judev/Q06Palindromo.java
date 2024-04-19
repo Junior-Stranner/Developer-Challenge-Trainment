@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Q06Palindromo {
     public static void main(String[] args) {
-        try (Scanner in = new Scanner(System.in)) {
+        Scanner in = new Scanner(System.in);
             String[] palavras = new String[10];
 
             for (int x = 0; x < 10; x++) {
@@ -29,7 +29,6 @@ public class Q06Palindromo {
                     System.out.println("A palavra \"" + palavras[x] + "\" é um palíndromo.");
                 } else {
                     System.out.println("A palavra \"" + palavras[x] + "\" não é um palíndromo.");
-                }
             }
         }
     }

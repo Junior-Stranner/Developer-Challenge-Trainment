@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Q05OrdemLista {
     public static void main(String[] args) {
-        try (Scanner in = new Scanner(System.in)) {
+       Scanner in = new Scanner(System.in);
             int[] vet = new int[9];
 
             for (int z = 0; z < vet.length; z++) {
@@ -26,7 +26,6 @@ public class Q05OrdemLista {
             System.out.println("A ordem correta dos elementos é: ");
             for (int valor : vet) {
                 System.out.print(valor + " ");
-            }
         }
     }
 }

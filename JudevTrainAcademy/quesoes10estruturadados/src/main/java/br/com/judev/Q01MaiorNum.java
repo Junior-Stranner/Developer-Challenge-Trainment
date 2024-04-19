@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Q01MaiorNum {
     public static void main(String[] args) {
-        try (Scanner in = new Scanner(System.in)) {
+       Scanner in = new Scanner(System.in);
             int[] num = new int[10];
             int maiorNum = 0;
 
@@ -17,7 +17,6 @@ public class Q01MaiorNum {
             }
 
             System.out.println("Maior número é " + maiorNum);
-        }
     }
 }
 

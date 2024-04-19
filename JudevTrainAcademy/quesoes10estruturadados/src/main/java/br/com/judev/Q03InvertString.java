@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Q03InvertString {
     public static void main (String[]args){
 
-        try (Scanner in = new Scanner(System.in)) {
+       Scanner in = new Scanner(System.in);
             String str = null;
 
             System.out.println("Digite uma String");
@@ -13,7 +13,6 @@ public class Q03InvertString {
 
             for(int x = str.length() - 1; x >= 0; x--){
               System.out.println("String invertida "+str.charAt(x));
-            }
         }
     }
 }

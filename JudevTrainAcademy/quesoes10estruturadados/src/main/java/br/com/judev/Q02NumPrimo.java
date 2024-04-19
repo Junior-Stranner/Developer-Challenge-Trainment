@@ -6,7 +6,7 @@ public class Q02NumPrimo {
    
     public static void main(String[]args){
 
-        try (Scanner in = new Scanner(System.in)) {
+        Scanner in = new Scanner(System.in); {
             int num =0;
             boolean numPrimo = false;
 
@@ -15,9 +15,6 @@ public class Q02NumPrimo {
 
             if(num % 2 == 0)numPrimo = true;System.out.println(numPrimo+ " número "+num+" é primo");
             System.out.println(numPrimo+" Número "+num+" não é primo");
-        } catch (NumberFormatException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         }
     }
 }
