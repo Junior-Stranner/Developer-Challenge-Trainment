@@ -26,8 +26,6 @@ public class Q02oqSeraImpreso {
         bC = bA + bB;       // bC recebe a soma atualizada de bA e bB, ou seja, 30 + 20 = 50
         System.out.println("A "+bA + " , B " + bB + " ,  C " + bC);  // imprime: 30 , 20 , 50
 
-
-
         System.out.println("-------------------------------------------------");
 
         System.out.println("C)");
@@ -38,8 +36,6 @@ public class Q02oqSeraImpreso {
         cB = cC;      // cB recebe o valor de cC, que também é 10
         cA = cB;      // cA recebe o valor de cB, que agora é 10
         System.out.println("A "+cA + " , B " + cB + " , C " + cC);  // imprime: 10 , 10 , 10
-
-
 
         System.out.println("-------------------------------------------------");
 
@@ -54,8 +50,6 @@ public class Q02oqSeraImpreso {
         System.out.println("A " + dA + " , B " + dB);  // imprime: A 14 , B 13
         
 
-
-
         System.out.println("-------------------------------------------------");
 
         System.out.println("E)");
@@ -66,8 +60,6 @@ public class Q02oqSeraImpreso {
         eB = 20;          // eB recebe o valor 20
         eA = 10;          // eA recebe o valor 10 novamente, não há mudança efetiva
         System.out.println("A "+eA + " , B " + eB + " , C " + eC);  // imprime: 10 , 20 , 15
-
-
 
         System.out.println("-------------------------------------------------");
         System.out.println("F)");
@@ -81,9 +73,6 @@ public class Q02oqSeraImpreso {
         x = 5;          // x é atualizado para 5
         y = x + z;      // y recebe a soma de x e z, ou seja, 5 + (-5) = 0
         System.out.println("X " + x + " , Y " + y + " , Z " + z);  // imprime: X 5 , Y 0 , Z -5
-        
-
-
 
         System.out.println("-------------------------------------------------");
 
