@@ -8,7 +8,7 @@ public class Q01MaiorNum {
             int[] num = new int[10];
             int maiorNum = 0;
 
-            for (int x = 0; x < 10; x++) {
+            for (int x = 0; x < num.length; x++) {
                 System.out.println("Digite um número: ");
                 num[x] = in.nextInt();
                 if (num[x] > maiorNum) {
