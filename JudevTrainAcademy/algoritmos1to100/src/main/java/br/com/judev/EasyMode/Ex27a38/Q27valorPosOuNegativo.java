@@ -1,4 +1,4 @@
-package br.com.judev.EasyMode.Exercicios27a38;
+package br.com.judev.EasyMode.Ex27a38;
 
 import java.util.Scanner;
 

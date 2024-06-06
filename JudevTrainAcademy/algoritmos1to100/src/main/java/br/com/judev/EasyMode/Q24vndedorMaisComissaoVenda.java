@@ -2,7 +2,7 @@ package br.com.judev.EasyMode;
 
 import java.util.Scanner;
 
-public class Q24vendedorMaisComissaoVenda {
+public class Q24vndedorMaisComissaoVenda {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

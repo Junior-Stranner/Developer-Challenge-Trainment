@@ -1,4 +1,4 @@
-package br.com.judev.EasyMode.Exercicios27a38;
+package br.com.judev.EasyMode.Ex27a38;
 
 import java.util.Scanner;
 
@@ -6,23 +6,33 @@ public class Q28Maiorvalor {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int[] valores = new int[3];
+        int[] valores = new int[20];
 
-        for (int x = 0; x < 3; x++) {
-            System.out.println("Digite o " + (x + 1) + "* valor:");
+        for (int x = 0; x < 20; x++) {
+            System.out.println("Digite o " + (x + 1) + "º valor:");
             valores[x] = Integer.parseInt(in.nextLine());
         }
 
-        if (valores[0] == valores[1] || valores[0] == valores[2] || valores[1] == valores[2]) {
-            System.out.println("Valores não podem ser iguais.");
-        } else {
-
-            int maior = valores[0];
-            if (valores[1] > maior) {
-                maior = valores[1];
+        boolean valoresIguais = false;
+        for (int i = 0; i < valores.length; i++) {
+            for (int j = i + 1; j < valores.length; j++) {
+                if (valores[i] == valores[j]) {
+                    valoresIguais = true;
+                    break;
+                }
             }
-            if (valores[2] > maior) {
-                maior = valores[2];
+            if (valoresIguais) {
+                System.out.println("Valores não podem ser iguais.");
+                break; 
+            }
+        }
+
+        if (!valoresIguais) {
+            int maior = valores[0];
+            for (int i = 1; i < valores.length; i++) {
+                if (valores[i] > maior) {
+                    maior = valores[i];
+                }
             }
 
             System.out.println("O maior valor é: " + maior);
