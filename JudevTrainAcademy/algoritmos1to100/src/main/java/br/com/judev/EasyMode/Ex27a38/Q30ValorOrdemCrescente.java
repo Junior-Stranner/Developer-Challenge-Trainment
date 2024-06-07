@@ -14,7 +14,7 @@ public class Q30ValorOrdemCrescente {
             
             if (x > 0 && valor < valores[x - 1]) {
                 System.out.println("Os valores devem ser digitados em ordem crescente.");
-                return; 
+                break; 
             }
             
             valores[x] = valor;

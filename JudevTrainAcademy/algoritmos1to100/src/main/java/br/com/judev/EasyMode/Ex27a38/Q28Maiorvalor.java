@@ -6,9 +6,9 @@ public class Q28Maiorvalor {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int[] valores = new int[20];
+        int[] valores = new int[5];
 
-        for (int x = 0; x < 20; x++) {
+        for (int x = 0; x < 5; x++) {
             System.out.println("Digite o " + (x + 1) + "º valor:");
             valores[x] = Integer.parseInt(in.nextLine());
         }
@@ -18,12 +18,9 @@ public class Q28Maiorvalor {
             for (int j = i + 1; j < valores.length; j++) {
                 if (valores[i] == valores[j]) {
                     valoresIguais = true;
-                    break;
+                    System.out.println("valore não pode ser iguais ");
+                    return;
                 }
-            }
-            if (valoresIguais) {
-                System.out.println("Valores não podem ser iguais.");
-                break; 
             }
         }
 
