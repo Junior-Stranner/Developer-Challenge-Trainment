@@ -1,5 +1,6 @@
 package br.com.judev.EasyMode.Ex27a38;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q28Maiorvalor {
@@ -13,26 +14,24 @@ public class Q28Maiorvalor {
             valores[x] = Integer.parseInt(in.nextLine());
         }
 
+        // Verificação de valores iguais
         boolean valoresIguais = false;
+        outerLoop:
         for (int i = 0; i < valores.length; i++) {
             for (int j = i + 1; j < valores.length; j++) {
                 if (valores[i] == valores[j]) {
                     valoresIguais = true;
-                    System.out.println("valore não pode ser iguais ");
-                    return;
+                    break outerLoop; // Sai do loop externo assim que encontra valores iguais
                 }
             }
         }
 
-        if (!valoresIguais) {
-            int maior = valores[0];
-            for (int i = 1; i < valores.length; i++) {
-                if (valores[i] > maior) {
-                    maior = valores[i];
-                }
-            }
-
-            System.out.println("O maior valor é: " + maior);
+        if (valoresIguais) {
+            System.out.println("Valores não podem ser iguais");
+        } else {
+            Arrays.sort(valores);
+            int somaDosDoisMaiores = valores[valores.length - 1] + valores[valores.length - 2];
+            System.out.println("A soma dos dois maiores valores é: " + somaDosDoisMaiores);
         }
     }
 }
