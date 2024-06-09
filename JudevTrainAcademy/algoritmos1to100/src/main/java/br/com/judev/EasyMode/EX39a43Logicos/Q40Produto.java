@@ -17,16 +17,9 @@ public class Q40Produto {
         System.out.println("Preço do "+nome);
         double precoUnitario = Double.parseDouble(in.nextLine());
 
+        prodDesconto = (qtdProd <= 5) ? 0.02 : (qtdProd < 10) ? 0.03 : 0.05;
 
-        if(qtdProd <=5 ){
-            prodDesconto = 0.02;
-        }else if(qtdProd > 5 && qtdProd <10){
-            prodDesconto = 0.03;
-        }else{
-            prodDesconto = 0.05;
-
-        }
-        precoTotal = qtdProd * precoUnitario;
+        precoTotal = qtdProd * precoUnitario * (1 - prodDesconto);
         System.out.println("Preço total do produto é de "+precoTotal);
     }
 }
