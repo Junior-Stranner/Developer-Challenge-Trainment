@@ -28,3 +28,6 @@ and various tools
 ex: Spring Security, Swagger, Hatoes, DTO's, ModelMapper || DozerMapper and other technologies that I will learn over time, there will be no prediction of completion, as I never know if it will be possible to always work on these exercises, so I will go little by little, if I finish by the end of 2024 it will be very good, but I'm not going to create expectations
 
 Another thing too, I don't know for sure how many exercises each module will have, Module 1 will be 100 to 200 exercises starting from absolute 0 to Advanced and of pure logic
+
+===============> ALL EXERCISES <===============
+![alt text](<Captura de tela 2024-08-12 135424.png>)
