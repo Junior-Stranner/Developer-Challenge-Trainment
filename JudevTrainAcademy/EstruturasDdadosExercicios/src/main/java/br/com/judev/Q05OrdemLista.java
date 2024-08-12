@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Q05OrdemLista {
     public static void main(String[] args) {
        Scanner in = new Scanner(System.in);
-            int[] vet = new int[9];
+            int[] vet = new int[10];
 
             for (int z = 0; z < vet.length; z++) {
                 System.out.println("Digite um valor para vet[" + z + "]: ");

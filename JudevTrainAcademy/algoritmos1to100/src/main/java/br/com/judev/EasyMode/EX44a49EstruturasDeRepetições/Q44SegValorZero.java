@@ -1,4 +1,4 @@
-package br.com.judev.EasyMode.EX44a49Enquanto;
+package br.com.judev.EasyMode.EX44a49EstruturasDeRepetições;
 
 import java.util.Scanner;
 
@@ -16,8 +16,8 @@ public class Q44SegValorZero {
            
             System.out.println("Digite outro valor ");
              v2 = Integer.parseInt(in.nextLine());
-             
-             if (v2 == 0) {
+           
+             if(v2==0){
                 System.out.println("O segundo valor não pode ser zero. Digite novamente.");
              }
         } while (v2 == 0);

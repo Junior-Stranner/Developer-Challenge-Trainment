@@ -2,7 +2,7 @@ package br.com.judev.EasyMode.EX14a26Relacionais;
 
 import java.util.Scanner;
 
-public class Q014MensMaiorMenor {
+public class Q014ValorMaiorMenor {
         public static void main(String[] args) {
        Scanner in = new Scanner(System.in);
 

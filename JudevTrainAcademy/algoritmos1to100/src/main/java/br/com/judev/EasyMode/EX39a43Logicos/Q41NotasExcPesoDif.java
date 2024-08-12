@@ -38,17 +38,17 @@ public class Q41NotasExcPesoDif {
 
                 if (op == 's' || op == 'S') {
                     System.out.println("Você escolheu aproveitar a segunda chance.");
-                    continue;  // Volta ao início do loop para uma nova tentativa
+                    continue;  
                 } else if (op == 'n' || op == 'N') {
                     System.out.println("Você escolheu não aproveitar a segunda chance.");
-                    break;  // Sai do loop e termina o programa
+                    break;  
                 } else {
                     System.out.println("Opção inválida.");
-                    break;  // Sai do loop em caso de opção inválida
+                    break;  
                 }
             } else {
-                break;  // Sai do loop se a médiaFinal não for de recuperação
+                break;  
             }
-        } while (true);  // Loop infinito até que uma condição de parada seja atendida
+        } while (true);  
     }
 }
