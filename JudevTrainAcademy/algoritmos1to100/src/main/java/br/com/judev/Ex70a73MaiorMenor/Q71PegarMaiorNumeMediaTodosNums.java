@@ -3,7 +3,7 @@ package br.com.judev.Ex70a73MaiorMenor;
 import java.util.Scanner;
 
 
-public class QPegarMaiorNumeMediaTodosNums {
+public class Q71PegarMaiorNumeMediaTodosNums {
     
     public static void main(String[] args) {
         
