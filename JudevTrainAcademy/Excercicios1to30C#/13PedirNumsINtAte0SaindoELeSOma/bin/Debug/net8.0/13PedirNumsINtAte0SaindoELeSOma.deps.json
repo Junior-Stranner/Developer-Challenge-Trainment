@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "13PedirNumsINtAte0SaindoELeSOma/1.0.0": {
+        "runtime": {
+          "13PedirNumsINtAte0SaindoELeSOma.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "13PedirNumsINtAte0SaindoELeSOma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
