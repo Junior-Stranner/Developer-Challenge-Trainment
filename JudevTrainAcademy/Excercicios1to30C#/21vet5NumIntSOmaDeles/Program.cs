@@ -5,12 +5,15 @@
   
 */
 
-for(int indice = 1; indice <=100; indice++){
+//vetor 
+int[] numeros = {4,6,9,4,3};
 
-    if(indice % 10 ==0){
-         Console.WriteLine("*");
-    }else{
-         Console.Write("* ");
+//variável de soma
+int soma =0;
 
-    }
+//Estrutura de repetição
+for(int indice =0; indice <5 ; indice++){
+    soma += numeros[indice];
 }
+
+Console.WriteLine($"A soma dos valores é {soma}");

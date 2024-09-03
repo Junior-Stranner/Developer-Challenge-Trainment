@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "21vet5NumIntSOmaDeles/1.0.0": {
+        "runtime": {
+          "21vet5NumIntSOmaDeles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "21vet5NumIntSOmaDeles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
