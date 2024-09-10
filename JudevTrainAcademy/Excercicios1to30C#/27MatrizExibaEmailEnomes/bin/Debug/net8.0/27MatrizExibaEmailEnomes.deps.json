@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "27MatrizExibaEmailEnomes/1.0.0": {
+        "runtime": {
+          "27MatrizExibaEmailEnomes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "27MatrizExibaEmailEnomes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
