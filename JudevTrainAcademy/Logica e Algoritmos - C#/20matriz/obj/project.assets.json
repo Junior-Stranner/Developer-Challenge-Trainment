@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ju-st\\Projetos Programação GitHub\\Programação Back-End\\Junior-Java\\Algoritmos e Estrutura d Dados\\Developer-Challenge-Trainment\\Logica e Algoritmos - C#\\20matriz\\20matriz.csproj",
+      "projectUniqueName": "C:\\Users\\Ju-st\\Projetos Programação GitHub\\Programação Back-End\\Junior-Java\\Algoritmos e Estrutura d Dados\\Developer-Challenge-Trainment\\JudevTrainAcademy\\Logica e Algoritmos - C#\\20Matriz\\20matriz.csproj",
       "projectName": "20matriz",
-      "projectPath": "C:\\Users\\Ju-st\\Projetos Programação GitHub\\Programação Back-End\\Junior-Java\\Algoritmos e Estrutura d Dados\\Developer-Challenge-Trainment\\Logica e Algoritmos - C#\\20matriz\\20matriz.csproj",
+      "projectPath": "C:\\Users\\Ju-st\\Projetos Programação GitHub\\Programação Back-End\\Junior-Java\\Algoritmos e Estrutura d Dados\\Developer-Challenge-Trainment\\JudevTrainAcademy\\Logica e Algoritmos - C#\\20Matriz\\20matriz.csproj",
       "packagesPath": "C:\\Users\\Ju-st\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ju-st\\Projetos Programação GitHub\\Programação Back-End\\Junior-Java\\Algoritmos e Estrutura d Dados\\Developer-Challenge-Trainment\\Logica e Algoritmos - C#\\20matriz\\obj\\",
+      "outputPath": "C:\\Users\\Ju-st\\Projetos Programação GitHub\\Programação Back-End\\Junior-Java\\Algoritmos e Estrutura d Dados\\Developer-Challenge-Trainment\\JudevTrainAcademy\\Logica e Algoritmos - C#\\20Matriz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ju-st\\AppData\\Roaming\\NuGet\\NuGet.Config"
