@@ -25,7 +25,7 @@ public class Q2TresNomesUnicos {
                     if (dados[j][1].equals(novoNome)) {
                         System.out.println("Nome já cadastrado. Por favor, escolha um novo nome.");
                         nomeValido = false;
-                        return;
+                        break;
                     }
                 }
                 
