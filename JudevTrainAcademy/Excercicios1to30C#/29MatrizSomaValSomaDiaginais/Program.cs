@@ -11,13 +11,12 @@ int somarTodaMatriz = 0;
 int somaDiagonalPrincipal = 0;
 int somaDiagonalSecundaria = 0;
 
-// Preenchendo a matriz com valores de exemplo e calculando as somas
-for (int x = 0; x < 5; x++) // Percorre as linhas (horizontalmente)
+for (int x = 0; x < 5; x++)
 {
-    for (int y = 0; y < 5; y++) // Percorre as colunas (verticalmente)
+    for (int y = 0; y < 5; y++) 
     {
-        Console.Write(matriz[x, y] + " "); // Exibe o valor atual
-        somarTodaMatriz += matriz[x, y]; // Soma o valor atual
+        Console.Write(matriz[x, y] + " ");
+        somarTodaMatriz += matriz[x, y]; 
 
         // Soma dos elementos da diagonal principal
         if (x == y)
@@ -31,7 +30,7 @@ for (int x = 0; x < 5; x++) // Percorre as linhas (horizontalmente)
             somaDiagonalSecundaria += matriz[x, y];
         }
     }
-    Console.WriteLine(); // Quebra de linha após cada linha da matriz
+    Console.WriteLine(); 
 }
 
 // Exibindo as somas
