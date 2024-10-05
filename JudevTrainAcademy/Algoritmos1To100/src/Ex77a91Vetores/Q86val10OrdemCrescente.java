@@ -14,8 +14,8 @@ public class Q86val10OrdemCrescente {
            System.out.println("Digite o "+(i + 1)+" Número");
            numeros[i] = Integer.parseInt(in.nextLine());
         }
-        for(int j = 0; j< numeros.length; j++){
-          for (int i = 0; i < numeros.length -1; i++) {
+        for(int j = 0; j< numeros.length - 1; j++){
+          for (int i = j + 1; i < numeros.length ; i++) {
             if(numeros[j] < numeros[i]){
                 aux = numeros[j];
                 numeros[j] = numeros[i];
