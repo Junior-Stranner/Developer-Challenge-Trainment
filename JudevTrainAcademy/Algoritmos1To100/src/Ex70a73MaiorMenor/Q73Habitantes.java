@@ -12,28 +12,29 @@ public class Q73Habitantes {
         double[] salarios = new double[qtdHabitantes];
         int[] filhos = new int[qtdHabitantes];
 
-        do{
-            System.out.println("Pesquisa Prefeitura" +
-                "\n 1 - Cadastrar Habitante" +
-                "\n 2 - Leitura da Pesquisa" +
-                "\n 3 - Sair");
-            int op = Integer.parseInt(in.nextLine());
-
-            switch (op) {
-                case 1:
-                    cadastrarHabitante(in, salarios, filhos);
-                    break;
-                case 2:
-                    vizualizarPesquisa(salarios, filhos);
-                    break;
-                case 3:
-                    System.out.println("Saindo ....");
-                    in.close();
-                    return;
-                default:
-                    System.out.println("Opção inválida. Tente novamente.");
-            }
-        }while(op !=3);
+        int op;
+                do{
+                    System.out.println("Pesquisa Prefeitura" +
+                        "\n 1 - Cadastrar Habitante" +
+                        "\n 2 - Leitura da Pesquisa" +
+                        "\n 3 - Sair");
+                     op = Integer.parseInt(in.nextLine());
+        
+                    switch (op) {
+                        case 1:
+                            cadastrarHabitantes(in, salarios, filhos);
+                            break;
+                        case 2:
+                            vizualizarPesquisa(qtdHabitantes,salarios, filhos);
+                            break;
+                        case 3:
+                            System.out.println("Saindo ....");
+                            in.close();
+                            return;
+                        default:
+                            System.out.println("Opção inválida. Tente novamente.");
+                    }
+                }while(op !=3);
     }
 
     public static void cadastrarHabitantes(Scanner in, double[] salarios, int[] filhos) {
@@ -54,8 +55,8 @@ public class Q73Habitantes {
         }
     }
 
-    public static void vizualizarPesquisa(double[] salarios, int[] filhos) {
-        if (habitantesCadastrados == 0) {
+    public static void vizualizarPesquisa(int qtdHabitantes , double[] salarios, int[] filhos) {
+            if (qtdHabitantes == 0) {
             System.out.println("Nenhum dado cadastrado.");
             return;
         }

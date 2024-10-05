@@ -1,3 +1,5 @@
+package Ex77a91Vetores;
+
 import java.util.Scanner;
 
 public class Q91VerificarNumerosRepetidos {
