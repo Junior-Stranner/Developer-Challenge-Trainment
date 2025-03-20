@@ -30,4 +30,5 @@ ex: Spring Security, Swagger, Hatoes, DTO's, ModelMapper || DozerMapper and othe
 Another thing too, I don't know for sure how many exercises each module will have, Module 1 will be 100 to 200 exercises starting from absolute 0 to Advanced and of pure logic
 
 ===============> ALL EXERCISES <===============
+file:///D:/ADS/Programa%C3%A7%C3%A3o%20Te%C3%B3rica/Java/Java%20B%C3%A1sico%20(teoria%20e%20Exercicios%20em%20PDF)/Arquivos%20PDF%20Java%20(Exercicios%20e%20Leiotura)/Lisra%20de%20exerccio%201%20-100%20ADS%20Java.pdf
 ![alt text](<Captura de tela 2024-08-12 135424.png>)
