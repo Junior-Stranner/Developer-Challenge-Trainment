@@ -31,4 +31,7 @@ Another thing too, I don't know for sure how many exercises each module will hav
 
 ===============> ALL EXERCISES <===============
 
+[Lisra de exerccio 1 -100 ADS Java.pdf](https://github.com/user-attachments/files/19374931/Lisra.de.exerccio.1.-100.ADS.Java.pdf)
+
+
 ![alt text](<Captura de tela 2024-08-12 135424.png>)
