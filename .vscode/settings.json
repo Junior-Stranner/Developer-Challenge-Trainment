@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Ju-Treino-2025/logica-Ralf-Lima/src"
+        "Ju-Treino-2025/logica-Ralf-Lima/src",
+        "EstruturaDeDados/linkedList/src"
     ]
 }
