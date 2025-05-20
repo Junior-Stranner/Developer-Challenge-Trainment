@@ -1,6 +1,6 @@
 public class Programa {
     public static void main(String[] args) throws Exception {
-        ListaLigada lista = new ListaLigada();
+        ListaLigada<String> lista = new ListaLigada<String>();
         lista.adicionar("AC");
         lista.adicionar("BA");
         lista.adicionar("CE");  
