@@ -36,6 +36,10 @@ public class Comparacao {
 
         // Leitura da Lista Ligada
         tempoInicial = System.currentTimeMillis();
+        IteratorListaLigada<Integer> iterator = lista.getIterator();
+        while(iterator.temProximo()){
+            iterator.getProximo();
+        }
         for (int i = 0; i < lista.getTamanho(); i++) {
             lista.get(i);
         }
