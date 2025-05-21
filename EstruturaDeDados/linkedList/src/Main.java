@@ -18,7 +18,6 @@ public class Main {
                 System.out.println("Achou!");
                 achou = true;
                 break;
-            
         }
     }
         if(achou){
