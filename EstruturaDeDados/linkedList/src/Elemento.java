@@ -1,4 +1,4 @@
-public class Elemento<TIPO> {
+public class Elemento<TIPO>  {
     TIPO valor;
     private Elemento<TIPO> proximo;
 

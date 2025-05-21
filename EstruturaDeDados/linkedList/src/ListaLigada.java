@@ -1,4 +1,5 @@
-public class ListaLigada<TIPO> {
+
+public class ListaLigada<TIPO>{
     private Elemento<TIPO> primeiro;
     private Elemento<TIPO> ultimo;
     private int tamanho;
