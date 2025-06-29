@@ -2,7 +2,7 @@ package polimorfismo2;
 
 public class Main {
 
-    void main() {
+    public static void main(String[] args) throws Exception {
         
         // Criar um objeto
         DescontoPadrao obj = new DescontoDesenvolvedor();

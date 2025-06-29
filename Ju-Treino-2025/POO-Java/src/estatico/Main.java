@@ -2,7 +2,7 @@ package estatico;
 
 public class Main {
 
-    void main() {
+    public static void main(String[] args) throws Exception {
         
         System.out.println(Classe.nome);
 

@@ -4,7 +4,7 @@ public class Main {
     
     // Anotação para remover o alerta dos objetos criados e não utilizados
     @SuppressWarnings("unused")
-    void main() {
+    public static void main(String[] args) throws Exception {
         
         Media m1 = new Media();
 

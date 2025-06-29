@@ -6,7 +6,7 @@ public class ExemploHashMap {
         //HashMap
         HashMap<String,String> lingugagens = new HashMap<>();
 
-        lingugagens.put("Java", "ultiplataforma");
+        lingugagens.put("Java", "Multiplataforma");
         lingugagens.put("HTML", "Linguagens de Marcação");
         lingugagens.put("CSS", "Linguegm de estilos");
 
