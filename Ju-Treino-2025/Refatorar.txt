@@ -1,0 +1,17 @@
+O QUE É REFATORAÇÃO
+Refatorar é o processo de melhorar o código sem mudar o seu comportamento externo. 
+Ou seja, você altera a estrutura interna do código para torná-lo mais eficiente, limpo 
+e fácil de entender, mas o programa continuará fazendo exatamente a mesma coisa.
+
+----------------------------------------------------------------------------------------------------------------------
+
+[DICAS PARA REFATORAR PROJETOS]
+1. Evite códigos repetidos.
+
+2. Dê nomes significativos para classes, atributos, métodos e objetos.
+
+3. Divida métodos muito grandes em métodos menores.
+
+4. Use o que o Java oferece (bibliotecas e frameworks).
+
+5. Use try-catch de forma simples e eficiente.
