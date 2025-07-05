@@ -1,0 +1,12 @@
+1º O que é o ResponseEntity?
+O ResponseEntity é uma classe do Spring Framework, que representa
+uma resposta HTTP completa.
+
+-----------------------------------------------------------------
+
+2º Como é sua estrutura?
+@GetMapping("/mensagem")
+public ResponseEntity<String> mensagem() {
+    String mensagem = "Hello, World!";
+    return new ResponseEntity<>(mensagem, HttpStatus.OK);
+}

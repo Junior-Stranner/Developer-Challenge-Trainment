@@ -1,0 +1,14 @@
+Injeção de dependências - Construtor
+
+Vantagens:
+   - Garante que o objeto estará disponível, já que é o primeiro método a ser executado;
+   - Segurança, pois o atributo é imutável;
+   - Facilidade para trabalhar com testes unitários;
+   - Annotation @Autowired:
+      - Caso a classe tenha apenas um construtor, não é necessário utilizar a annotation (Versão 4.3 ou superior);
+      - Caso a classe tenha mais de um construtor, utilize a annotation.
+   - Flexibilidade de migração para outros frameworks (Guice ou CDI no Java EE).
+
+Desvantagens:
+   - Estrutura mais complexa (Comparado com a injeção via atributo);
+   - As dependências não podem ser alteradas após a criação do objeto.

@@ -1,0 +1,22 @@
+Injeção de dependências - Setter
+
+Vantagens:
+   - Facilidade para aplicar testes unitários;
+   - Possibilidade de criar vários métodos para efetuar a injeção de dependências.
+
+Desvantagens:
+    - Estrutura do código maior (Comparado com a injeção via atributo);
+    - Risco em não carregar o objeto;
+    - Não aplica o princípio da imutabilidade.
+
+
+
+
+
+
+
+
+
+
+
+
