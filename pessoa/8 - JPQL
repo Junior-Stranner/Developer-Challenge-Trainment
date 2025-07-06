@@ -1,0 +1,19 @@
+JPQL ou Java Persistence Query Language, é uma linguagem de consulta
+que permite que você trabalhe com dados de entidades JPA, mas não é SQL diretamente.
+
+Exemplos:
+    // Retornar a soma das idades
+    @Query("SELECT SUM(p.idade) FROM PessoaModelo p")
+    Long calcularSomaIdades();
+
+    // Retornar a média das idades
+    @Query("SELECT AVG(p.idade) FROM PessoaModelo p")
+    Double calcularMediaIdades();
+
+    // Retornar uma coleção de dados, onde a idade é superior a 30 anos
+    @Query("SELECT p FROM PessoaModelo p WHERE p.idade > 30")
+    Iterable<PessoaModelo> findPessoasComIdadeMaiorQue30();
+
+    // Retornar uma coleção de dados, onde o nome contenha algum termo
+    @Query("SELECT p FROM PessoaModelo p WHERE p.nome LIKE %:nome%")
+    Iterable<PessoaModelo> findPessoasComNome(@Param("nome") String nome);

@@ -1,0 +1,7 @@
+Podemos trabalhar com contadores, existem duas estruturas:
+    - count();   <- Conta todos os registros.
+    - countBy(); <- Filtra e conta os registros encontrados.
+
+Exemplos:
+    count();                             <- Método padrão que retorna um Long.
+    Long countByCidade(String cidade);   <- Customização via countBy.

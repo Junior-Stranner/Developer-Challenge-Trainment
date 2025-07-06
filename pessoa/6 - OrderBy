@@ -1,0 +1,17 @@
+Podemos trabalhar com ordenações, basta utilizar o comando OrderBy:
+
+Exemplos:
+    Iterable<PessoaModelo> findAllByOrderByNomeAsc();   // Ordena de A - Z
+    Iterable<PessoaModelo> findAllByOrderByNomeDesc();  // Ordena de Z - A
+
+----------------------------------------------------------------
+
+* O OrderBy funciona para diversos tipos de dados?
+    - String;
+    - Integer;
+    - Long;
+    - Float;
+    - Double;
+    - Date;
+    - LocalDate;
+    - Boolean.

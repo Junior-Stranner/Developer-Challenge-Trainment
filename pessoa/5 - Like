@@ -1,0 +1,19 @@
+O operador Like trabalha da seguinte maneira:
+    - Exibir registros que iniciem (Exemplo: "M%");
+    - Exibir registros que contenham (Exemplo: "%a%");
+    - Exibir registros que finalizem (Exemplo: "%o").
+
+Exemplos:
+    Iterable<PessoaModelo> findByNomeLike(String nome);
+    Iterable<PessoaModelo> findByNomeLikeIgnoreCase(String nome);
+
+----------------------------------------------------------------
+
+* O IgnoreCase é um complemento que pode ser utilizado em outras estruturas:
+    - findByNomeIgnoreCase(String nome);
+    - findByCidadeOrCidadeIgnoreCase(String cidade1, String cidade2);
+
+
+* Além do Like para verificar se algum termo inicia ou finaliza, podemos utilizar:
+    - Iterable<PessoaModelo> findByNomeStartingWith(String nome);
+    - Iterable<PessoaModelo> findByNomeEndingWith(String nome);

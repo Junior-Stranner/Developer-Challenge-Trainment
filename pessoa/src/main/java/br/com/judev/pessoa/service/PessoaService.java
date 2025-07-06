@@ -51,16 +51,12 @@ public class PessoaService {
 
         // Condicional
         if(obj.isPresent()){
-            // Converter Optional para PessoaModelo
+            // Converter Optional para Pessoa
             Pessoa pm2 = obj.get();
 
             // Verificação
             if(pessoa.getNome() != null){
                 pm2.setNome(pessoa.getNome());
-            }
-
-            if(pessoa.getIdade() != null){
-                pm2.setIdade(pessoa.getIdade());
             }
 
             if(pessoa.getCidade() != null){

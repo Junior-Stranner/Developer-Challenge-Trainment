@@ -1,0 +1,5 @@
+Podemos implementar os operadores And (e) e OR (ou).
+
+Exemplos:
+Iterable<PessoaModelo> findByNomeAndCidade(String nome, String cidade);
+Iterable<PessoaModelo> findByCidadeOrCidade(String cidade1, String cidade2);
