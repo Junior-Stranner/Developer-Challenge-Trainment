@@ -1,4 +1,4 @@
 Between ou "entre valores":
 
 Exemplo:
-    Iterable<PessoaModelo> findByIdadeBetween(Integer idade1, Integer idade2);
+    Iterable<Pessoa> findByIdadeBetween(Integer idade1, Integer idade2);

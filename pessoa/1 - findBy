@@ -1,9 +1,9 @@
 O prefixo findBy é utilizado para gerar consultas baseadas em atributos da entidade.
 
 Exemplos:
-PessoaModelo findByCodigo(Long codigo);               <- Retorna uma pessoa.
-Iterable<PessoaModelo> findByCidade(String cidade);   <- Retorna uma coleção.
-List<PessoaModelo> findByNome(String nome);           <- Retorna uma lista.
+Pessoa findByCodigo(Long codigo);               <- Retorna uma pessoa.
+Iterable<Pessoa> findByCidade(String cidade);   <- Retorna uma coleção.
+List<Pessoa> findByNome(String nome);           <- Retorna uma lista.
 
 -----------------------------------
 

@@ -7,9 +7,15 @@ Vamos implementar os operadores relacionais:
     - NotEqual (diferente)
 
 Exemplos:
-Iterable<PessoaModelo> findByIdadeGreaterThan(Integer idade);
-Iterable<PessoaModelo> findByIdadeLessThan(Integer idade);
-Iterable<PessoaModelo> findByIdadeGreaterThanEqual(Integer idade);
-Iterable<PessoaModelo> findByIdadeEquals(Integer idade);
-Iterable<PessoaModelo> findByIdadeLessThanEqual(Integer idade);
-Iterable<PessoaModelo> findByIdadeNotEqual(Integer idade);
+Iterable<Pessoa> findByIdadeGreaterThan(Integer idade);
+Iterable<Pessoa> findByIdadeLessThan(Integer idade);
+
+Iterable<Pessoa> findByIdadeGreaterThanEqual(Integer idade);
+/*Objetivo: Retorna todas as pessoas com idade maior ou igual à informada.
+
+Iterable<Pessoa> findByIdadeEquals(Integer idade);
+Iterable<Pessoa> findByIdadeLessThanEqual(Integer idade);
+/*Objetivo: Retorna todas as pessoas com idade menor ou igual à informada.
+
+Iterable<Pessoa> findByIdadeNotEqual(Integer idade);
+/*Objetivo: Retorna todas as pessoas com idade diferente da informada.
