@@ -4,14 +4,14 @@
  * @author Ralf Lima
  * @version 1.0
  */
-public class Main {
+public class Principal {
 
     /**
      * Método principal.
      */
     void main() {
         // Criar objeto
-        Pessoa pessoa = new Pessoa("Junior", 23);
+        PessoaExemplo pessoa = new PessoaExemplo("Junior", 23);
         
         // Método de apresentação
         pessoa.apresentacao();

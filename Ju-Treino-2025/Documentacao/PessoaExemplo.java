@@ -5,7 +5,7 @@
  * @author Ralf Lima
  * @version 1.0
  */
-public class Pessoa {
+public class PessoaExemplo {
 
     private String nome;
     private int idade;
@@ -16,7 +16,7 @@ public class Pessoa {
      * @param nome O nome da pessoa.
      * @param idade A idade da pessoa.
      */
-    public Pessoa(String nome, int idade) {
+    public PessoaExemplo(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }

@@ -2,13 +2,18 @@ public class SelectionSort {
     public static void main(String[] args) {
           int[] vetor = new int[10];
 
-        for (int i = 0; i < vetor.length; i++) {
-            vetor[i] = (int) (Math.random() * vetor.length);
-        }
 
           System.out.println("Vetor desordenado:");
         for (int i = 0; i < vetor.length; i++) {
             System.out.println(vetor[i]);
+        }
+        System.out.println("Vetor Ordenado:");
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println(vetor[i]);
+        }
+
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] = (int) (Math.random() * vetor.length);
         }
 
         //Selection Sort
@@ -23,11 +28,6 @@ public class SelectionSort {
         aux = vetor[posicao_menor];
         vetor[posicao_menor] = vetor[i];
         vetor[i] = aux;
-    }
-
-        System.out.println("Vetor Ordenado:");
-        for (int i = 0; i < vetor.length; i++) {
-            System.out.println(vetor[i]);
-        }
+      }
     }
 }

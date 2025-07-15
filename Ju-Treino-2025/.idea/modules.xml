@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Excercicios-2025/Excercicios-2025.iml" filepath="$PROJECT_DIR$/Excercicios-2025/Excercicios-2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios-POO-Java/Exercicios-POO-Java.iml" filepath="$PROJECT_DIR$/Exercicios-POO-Java/Exercicios-POO-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extras/Extras.iml" filepath="$PROJECT_DIR$/Extras/Extras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ju-Treino-2025.iml" filepath="$PROJECT_DIR$/Ju-Treino-2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-Java/POO-Java.iml" filepath="$PROJECT_DIR$/POO-Java/POO-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logica-Ralf-Lima/logica-Ralf-Lima.iml" filepath="$PROJECT_DIR$/logica-Ralf-Lima/logica-Ralf-Lima.iml" />
+    </modules>
+  </component>
+</project>
