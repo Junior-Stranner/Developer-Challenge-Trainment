@@ -43,21 +43,23 @@ public class Sistema {
             }
         }while(op != 0);
     }
+private static void removerProduto() {
+    in.nextLine();
+    System.out.print("Informe o nome do produto a ser removido: ");
+    String nomeBusca = in.nextLine();
 
-    private static void removerProduto() {
-        in.nextLine();
-        System.out.print("Informe o nome do produto a ser removido: ");
-        String nomeBusca = in.nextLine();
-
-        for (Produto p : produtos) {
-            if (p.getNome().equalsIgnoreCase(nomeBusca)) {
-                produtos.remove(p);
-                System.out.println("Produto removido com sucesso!");
-                return;
-            }
+    Iterator<Produto> it = produtos.iterator();
+    while (it.hasNext()) {
+        Produto p = it.next();
+        if (p.getNome().equalsIgnoreCase(nomeBusca)) {
+            it.remove(); 
+            System.out.println("Produto removido com sucesso!");
+            return;
         }
-        System.out.println("Produto não encontrado.");
     }
+    System.out.println("Produto não encontrado.");
+}
+
 
 
     private static void alterarProduto() {
